@@ -17,21 +17,3 @@ The model is trained on the [FER-2013](https://www.kaggle.com/datasets/msambare/
 
 > ⚠️ Dataset is not included in the repository. Please download it manually from Kaggle and organize it into `train/` and `test/` folders as expected by `ImageDataGenerator`.
 
-## 🚀 Features
-- Built using TensorFlow and Keras
-- Trained on 48x48 grayscale images
-- Supports manual emotion testing by text input
-- Visualizes accuracy, loss, and prediction outputs
-- Predicts emotions from test images or manual image uploads
-
-## 🧠 Model Architecture
-The CNN architecture includes:
-- 3 Convolutional Blocks with Batch Normalization, MaxPooling, and Dropout
-- A Dense fully connected layer
-- Softmax activation for multi-class classification
-
-## 📦 Requirements
-Install necessary packages before running:
-
-```bash
-pip install tensorflow matplotlib pillow scipy
